@@ -1,0 +1,45 @@
+.dashboard {
+  padding: 10px 20px;
+}
+.container {
+  padding: 20px;
+  border-radius: 12px;
+  margin: 12px 0;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.3s;
+  box-shadow: 2px 4px 24px 0 rgba(0, 0, 0, 0.12);
+}
+.container:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.minContainer {
+  display: flex;
+}
+.minContainer img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  /* position: absolute; */
+  margin-top: 80%;
+}
+.secondContainer {
+  margin-left: 30px;
+}
+.details {
+  margin: 5px 0px;
+}
+.details span {
+  font-size: 13px;
+}
+.region {
+  margin: 5px 0px;
+}
+.population {
+   display: flex;
+  
+}
+.border {
+ margin-left: 10px;
+ 
+}
+
